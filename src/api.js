@@ -41,7 +41,7 @@ const popular_games = `games?dates${lastYear},${currentDate}&ordering=-rating&pa
 
 // Popular Games URL
 
-const popularGamesURL = () => {
+export const popularGamesURL = () => {
   return `${base_url}${popular_games}`;
 };
 
